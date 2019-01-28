@@ -12,6 +12,7 @@ RUN apt-get install -y \
         apt-transport-https \
         ca-certificates \
         curl \
+        zip \
         gnupg2 \
         software-properties-common \
     && curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add - \
